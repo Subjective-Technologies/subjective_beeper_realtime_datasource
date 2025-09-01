@@ -1,0 +1,18 @@
+name: subjective-beeper-realtime-datasource
+channels:
+  - file:///home/golden/miniconda3/conda-bld
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - matrix-nio
+  - python-dotenv
+  - cachetools
+  - atomicwrites
+  - peewee
+  - brainboost-data-tools-logger-package
+  - subjective-abstract-data-source-package
+  - pip
+  - pip:
+    - python-olm
+
