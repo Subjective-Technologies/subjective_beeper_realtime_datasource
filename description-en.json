@@ -1,0 +1,67 @@
+{
+  "domainCategory": "Communication",
+  "subjectiveTechnologyElement": "KnowledgeHooks",
+  "sections": [
+    {
+      "type": "splitList",
+      "title": "Beeper Real Time",
+      "text": "Real-time data source that monitors Beeper's SQLite database for new messages across all connected chat networks.",
+      "image": {
+        "src": "/subjective_beeper_realtime_datasource/icon.svg",
+        "alt": "Beeper Real Time icon"
+      },
+      "list": [
+        "Connection type: Custom",
+        "Config fields: database_path",
+        "Output: Builds a local SQLite catalog for fast search and downstream processing."
+      ]
+    },
+    {
+      "type": "example",
+      "title": "Typical workflow",
+      "intro": "Configure Beeper Real Time with the connection fields and run it as part of a BrainBoost pipeline.",
+      "cards": [
+        {
+          "title": "Connect",
+          "text": "Provide database_path in the connection form."
+        },
+        {
+          "title": "Fetch",
+          "text": "Run `fetch()` to ingest, transform, or stream data."
+        },
+        {
+          "title": "Consume",
+          "text": "Use the emitted items in downstream indexing, search, or automation steps."
+        }
+      ]
+    },
+    {
+      "type": "faq",
+      "title": "FAQ",
+      "items": [
+        {
+          "q": "What do I need to configure?",
+          "a": "At minimum: database_path. Additional fields may be optional depending on your use case."
+        },
+        {
+          "q": "What does it output?",
+          "a": "Builds a local SQLite catalog for fast search and downstream processing."
+        },
+        {
+          "q": "Where does the data go?",
+          "a": "Outputs are emitted to downstream subscribers in the BrainBoost pipeline. Some datasources also write artifacts (context files, catalogs, or exports) locally based on your configuration."
+        }
+      ]
+    },
+    {
+      "type": "finalCta",
+      "title": "Ready to use Beeper Real Time?",
+      "text": "Add it to your BrainBoost pipeline and start ingesting.",
+      "primaryCta": {
+        "label": "Get Subjective Client",
+        "href": "/subjective-client-download"
+      },
+      "subtext": "Run this datasource locally with your own credentials and storage."
+    }
+  ]
+}
