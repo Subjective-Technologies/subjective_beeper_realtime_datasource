@@ -1,4 +1,5 @@
 {
+  "description": "Monitors Beeper SQLite data in realtime, extracts new cross-network chat messages, and streams structured events downstream.",
   "domainCategory": "Communication",
   "subjectiveTechnologyElement": "KnowledgeHooks",
   "publisher": "BrainBoost Ltd.",
@@ -9,7 +10,7 @@
     {
       "type": "splitList",
       "title": "Beeper Real Time",
-      "text": "Real-time data source that monitors Beeper's SQLite database for new messages across all connected chat networks.",
+      "text": "Monitors Beeper SQLite data in realtime, extracts new cross-network chat messages, and streams structured events downstream.",
       "image": {
         "src": "/subjective_beeper_realtime_datasource/icon.svg",
         "alt": "Beeper Real Time icon"
